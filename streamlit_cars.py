@@ -128,7 +128,7 @@ if submitted:
                 ''', text_alignment = "center")
             estim_left = final_value - final_value*0.1
             estim_right = final_value + final_value*0.1 
-            st.markdown(f"## :blue-background[{estim_left:,.2f} € to {estim_right:,.2f} €]", text_alignment = "center")
+            st.markdown(f"## :blue-background[{estim_left:,.2f} to {estim_right:,.2f} €]", text_alignment = "center")
         with col3:
             st.markdown("""
             <div style="display: flex; flex-direction: column; align-items: center; gap: 14px; padding-top: 2rem;">
