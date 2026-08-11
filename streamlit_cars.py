@@ -190,9 +190,13 @@ if submitted:
             
             # Display in Streamlit
             st.pyplot(fig2, use_container_width=True)
+        st.divider()  # Draws a horizontal rule
+        st.markdown("Diego Sanchez (dsanchezg05)",text_alignment = "right")
+        
             
 
     else:
         st.error("Error, all boxes need to be properly filled out")
         st.divider()  # Draws a horizontal rule
+        st.markdown("Diego Sanchez (dsanchezg05)",text_alignment = "right")
 
