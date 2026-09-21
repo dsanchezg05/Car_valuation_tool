@@ -1,8 +1,8 @@
-streamlit
-pandas
-numpy
-scikit-learn
-category_encoders
-joblib
-matplotlib
-pyarrow
+streamlit==1.64.0
+pandas==2.3.3
+numpy==2.5.3
+scikit-learn==1.9.1
+category_encoders==2.11.1
+joblib==1.6.0
+matplotlib==3.11.2
+pyarrow==25.0.1
